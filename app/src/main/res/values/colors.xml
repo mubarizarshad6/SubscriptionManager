@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default background -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9E9E9E</color>
+
+    <!-- Card and background tints -->
+    <color name="light_gray">#F0F0F0</color>
+    <color name="border_gray">#E0E0E0</color>
+
+    <!-- Accent color (for Save button, icons, etc.) -->
+    <color name="purple_500">#6200EE</color>
+    <color name="background">#f4f5f7</color>
+    <color name="status">#f4f5f7</color>
+    <color name="text_clr">#667085</color>
+    <color name="save_clr">#002FFF</color>
+
+    <!-- Optional material style colors -->
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="gray_dark">#8A8A8D</color>
+    <color name="my_status_bar">#FF5722</color> <!-- your desired status bar color -->
+    <color name="blue_ios">#007AFF</color>
+</resources>

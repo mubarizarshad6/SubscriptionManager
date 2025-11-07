@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="48dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/frequency_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Weekly"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/check_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_circle_blue"
+        android:padding="4dp"
+        android:src="@drawable/ic_check"
+        app:tint="@android:color/white"
+        android:visibility="gone" />
+
+</LinearLayout>
